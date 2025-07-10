@@ -74,6 +74,33 @@
   </style>
 </head>
 <body>
+  <div class="navbar">
+  <a href="/descriptive">Descriptive Stats</a>
+  <a href="/inferential">Inferential Stats</a>
+  <a href="/">Prediction</a>
+</div>
+
+<style>
+  .navbar {
+    background-color: #007bff;
+    padding: 14px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+</style>
+
   <h2>🏠 Housing Price Predictor</h2>
   
   <form method="POST" action="/predict">

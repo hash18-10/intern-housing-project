@@ -57,6 +57,11 @@ def home():
 def inferential_page():
     return render_template("inferential.html")
 
+@app.route("/descriptive")
+def descriptive_page():
+    return render_template("descriptive.html")
+
+
 
 
 @app.route("/predict", methods=["POST"])
