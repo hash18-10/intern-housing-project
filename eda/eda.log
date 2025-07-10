@@ -1,0 +1,27 @@
+2025-07-09 16:26:09,938 - INFO - Dataset loaded successfully.
+2025-07-09 16:26:09,938 - INFO - Data Shape: (20640, 10)
+2025-07-09 16:26:09,944 - INFO - Missing Values:
+longitude               0
+latitude                0
+housing_median_age      0
+total_rooms             0
+total_bedrooms        207
+population              0
+households              0
+median_income           0
+median_house_value      0
+ocean_proximity         0
+dtype: int64
+2025-07-09 16:26:10,014 - INFO - Data Description:
+          longitude      latitude  housing_median_age   total_rooms  total_bedrooms    population    households  median_income  median_house_value
+count  20640.000000  20640.000000        20640.000000  20640.000000    20433.000000  20640.000000  20640.000000   20640.000000        20640.000000
+mean    -119.569704     35.631861           28.639486   2635.763081      537.870553   1425.476744    499.539680       3.870671       206855.816909
+std        2.003532      2.135952           12.585558   2181.615252      421.385070   1132.462122    382.329753       1.899822       115395.615874
+min     -124.350000     32.540000            1.000000      2.000000        1.000000      3.000000      1.000000       0.499900        14999.000000
+25%     -121.800000     33.930000           18.000000   1447.750000      296.000000    787.000000    280.000000       2.563400       119600.000000
+50%     -118.490000     34.260000           29.000000   2127.000000      435.000000   1166.000000    409.000000       3.534800       179700.000000
+75%     -118.010000     37.710000           37.000000   3148.000000      647.000000   1725.000000    605.000000       4.743250       264725.000000
+max     -114.310000     41.950000           52.000000  39320.000000     6445.000000  35682.000000   6082.000000      15.000100       500001.000000
+2025-07-09 16:26:11,966 - INFO - Price distribution plot saved to eda/price_distribution.png
+2025-07-09 16:26:12,169 - ERROR - Error plotting correlation heatmap: could not convert string to float: 'NEAR BAY'
+2025-07-09 16:26:12,170 - INFO - EDA pipeline completed.

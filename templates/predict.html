@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Predict House Price</title>
+</head>
+<body>
+  <h2>House Price Prediction</h2>
+  <form method="POST" action="/predict">
+    <label>Total Bedrooms:</label><br>
+    <input type="number" name="total_bedrooms" step="any" required><br><br>
+
+    <label>Households:</label><br>
+    <input type="number" name="households" step="any" required><br><br>
+
+    <label>Latitude:</label><br>
+    <input type="number" name="latitude" step="any" required><br><br>
+
+    <label>Longitude:</label><br>
+    <input type="number" name="longitude" step="any" required><br><br>
+
+    <label>Population:</label><br>
+    <input type="number" name="population" step="any" required><br><br>
+
+    <button type="submit">Predict</button>
+  </form>
+
+  {% if prediction %}
+    <h3>Predicted Price: {{ prediction }}</h3>
+  {% endif %}
+</body>
+</html>

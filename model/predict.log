@@ -1,0 +1,2 @@
+2025-07-09 16:46:14,785 - INFO - Model loaded successfully.
+2025-07-09 16:46:14,821 - INFO - Prediction successful for input: [3, 1200, 37.76, -122.42, 1500], Output: 332788.658620093
